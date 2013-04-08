@@ -393,7 +393,7 @@
 			}
 			
 		ul.style4 h3
-		{
+		{ 
 			padding: 0em 0em 0.50em 0em;
 			font-size: 1.50em;
 		}
@@ -542,7 +542,7 @@
 /* Copyright                                                                     */
 /*********************************************************************************/
 
-	#copyright 
+	#copyright_back 
 	{
 		overflow: hidden;
 		margin-top: 2em;
@@ -551,6 +551,17 @@
 		box-shadow: inset 0 1px 0 #bd3636;
 		text-align: center;
 		color: #ab6161;
+	}
+	
+	#copyright
+	{
+		margin-top: 2em;	
+		padding: 2em 0em 3em 0em;
+		border-top: 1px solid  #671414;
+		box-shadow: inset 0 1px 0 #bd3636;
+		text-align: center;
+		color: #ab6161;
+		height: 20px;
 	}
 
 /*********************************************************************************/
